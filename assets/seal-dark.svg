@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="280" viewBox="0 0 280 280" role="img" aria-label="Think global, act local — GV, 39.36° N 21.92° E">
+  <defs>
+    <linearGradient id="mono" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2DD4BF"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <mask id="hole">
+      <rect width="280" height="280" fill="white"/>
+      <circle cx="140" cy="140" r="53" fill="black"/>
+    </mask>
+    <path id="arcTop" d="M 79.5 140 A 60.5 60.5 0 0 1 200.5 140"/>
+    <path id="arcBottom" d="M 70.5 140 A 69.5 69.5 0 0 0 209.5 140"/>
+  </defs>
+  <g mask="url(#hole)">
+    <g fill="none" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.7">
+      <circle cx="140" cy="140" r="84"/><circle cx="140" cy="140" r="90"/>
+      <circle cx="140" cy="140" r="93" stroke-width="1.1"/><circle cx="140" cy="140" r="96" stroke-width="0.6"/>
+      <path d="M140.0 56.0 L140.0 50.0"/><path d="M154.6 57.3 L155.6 51.4"/><path d="M168.7 61.1 L170.8 55.4"/><path d="M182.0 67.3 L185.0 62.1"/><path d="M194.0 75.7 L197.9 71.1"/><path d="M204.3 86.0 L208.9 82.1"/><path d="M212.7 98.0 L217.9 95.0"/><path d="M218.9 111.3 L224.6 109.2"/><path d="M222.7 125.4 L228.6 124.4"/><path d="M224.0 140.0 L230.0 140.0"/><path d="M222.7 154.6 L228.6 155.6"/><path d="M218.9 168.7 L224.6 170.8"/><path d="M212.7 182.0 L217.9 185.0"/><path d="M204.3 194.0 L208.9 197.9"/><path d="M194.0 204.3 L197.9 208.9"/><path d="M182.0 212.7 L185.0 217.9"/><path d="M168.7 218.9 L170.8 224.6"/><path d="M154.6 222.7 L155.6 228.6"/><path d="M140.0 224.0 L140.0 230.0"/><path d="M125.4 222.7 L124.4 228.6"/><path d="M111.3 218.9 L109.2 224.6"/><path d="M98.0 212.7 L95.0 217.9"/><path d="M86.0 204.3 L82.1 208.9"/><path d="M75.7 194.0 L71.1 197.9"/><path d="M67.3 182.0 L62.1 185.0"/><path d="M61.1 168.7 L55.4 170.8"/><path d="M57.3 154.6 L51.4 155.6"/><path d="M56.0 140.0 L50.0 140.0"/><path d="M57.3 125.4 L51.4 124.4"/><path d="M61.1 111.3 L55.4 109.2"/><path d="M67.3 98.0 L62.1 95.0"/><path d="M75.7 86.0 L71.1 82.1"/><path d="M86.0 75.7 L82.1 71.1"/><path d="M98.0 67.3 L95.0 62.1"/><path d="M111.3 61.1 L109.2 55.4"/><path d="M125.4 57.3 L124.4 51.4"/>
+    </g>
+    <g fill="#CBD5E1" fill-opacity="0.5">
+      <path d="M157.9 44.7 L161.3 33.1 L159.9 45.1 Z"/><path d="M176.2 50.0 L180.2 43.0 L178.1 50.8 Z"/><path d="M193.0 58.8 L200.6 49.4 L194.7 59.9 Z"/><path d="M220.1 85.3 L230.6 79.4 L221.2 87.0 Z"/><path d="M229.2 101.9 L237.0 99.8 L230.0 103.8 Z"/><path d="M234.9 120.1 L246.9 118.7 L235.3 122.1 Z"/><path d="M235.3 157.9 L246.9 161.3 L234.9 159.9 Z"/><path d="M230.0 176.2 L237.0 180.2 L229.2 178.1 Z"/><path d="M221.2 193.0 L230.6 200.6 L220.1 194.7 Z"/><path d="M194.7 220.1 L200.6 230.6 L193.0 221.2 Z"/><path d="M178.1 229.2 L180.2 237.0 L176.2 230.0 Z"/><path d="M159.9 234.9 L161.3 246.9 L157.9 235.3 Z"/><path d="M122.1 235.3 L118.7 246.9 L120.1 234.9 Z"/><path d="M103.8 230.0 L99.8 237.0 L101.9 229.2 Z"/><path d="M87.0 221.2 L79.4 230.6 L85.3 220.1 Z"/><path d="M59.9 194.7 L49.4 200.6 L58.8 193.0 Z"/><path d="M50.8 178.1 L43.0 180.2 L50.0 176.2 Z"/><path d="M45.1 159.9 L33.1 161.3 L44.7 157.9 Z"/><path d="M44.7 122.1 L33.1 118.7 L45.1 120.1 Z"/><path d="M50.0 103.8 L43.0 99.8 L50.8 101.9 Z"/><path d="M58.8 87.0 L49.4 79.4 L59.9 85.3 Z"/><path d="M85.3 59.9 L79.4 49.4 L87.0 58.8 Z"/><path d="M101.9 50.8 L99.8 43.0 L103.8 50.0 Z"/><path d="M120.1 45.1 L118.7 33.1 L122.1 44.7 Z"/>
+    </g>
+    <g>
+      <g transform="rotate(45 140 140)"><path d="M140 40 L145 126 L140 140 L135 126 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 40 L135 126 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(135 140 140)"><path d="M140 40 L145 126 L140 140 L135 126 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 40 L135 126 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(225 140 140)"><path d="M140 40 L145 126 L140 140 L135 126 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 40 L135 126 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(315 140 140)"><path d="M140 40 L145 126 L140 140 L135 126 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 40 L135 126 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(0 140 140)"><path d="M140 21 L147.5 124 L140 140 L132.5 124 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 21 L132.5 124 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(90 140 140)"><path d="M140 21 L147.5 124 L140 140 L132.5 124 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 21 L132.5 124 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(180 140 140)"><path d="M140 21 L147.5 124 L140 140 L132.5 124 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 21 L132.5 124 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+      <g transform="rotate(270 140 140)"><path d="M140 21 L147.5 124 L140 140 L132.5 124 Z" fill="#CBD5E1" fill-opacity="0.14" stroke="#CBD5E1" stroke-opacity="0.5" stroke-width="0.8" stroke-linejoin="round"/><path d="M140 21 L132.5 124 L140 140 Z" fill="#CBD5E1" fill-opacity="0.238"/></g>
+    </g>
+    <g font-family="Georgia,'Times New Roman',Times,serif" font-size="6.5" letter-spacing="0.6" fill="#CBD5E1" fill-opacity="0.66" text-anchor="middle">
+      <text x="220.6" y="61.7">NE</text>
+      <text x="220.6" y="222.9">SE</text>
+      <text x="59.4" y="222.9">SW</text>
+      <text x="59.4" y="61.7">NW</text>
+    </g>
+    <g font-family="Georgia,'Times New Roman',Times,serif" font-size="17" font-weight="700" fill="#CBD5E1" fill-opacity="0.66" text-anchor="middle">
+      <text x="140" y="15">N</text><text x="271" y="146">E</text><text x="140" y="276">S</text><text x="9" y="146">W</text>
+    </g>
+  </g>
+  <circle cx="140" cy="140" r="77" fill="none" stroke="#F8FAFC" stroke-opacity="0.55" stroke-width="1.5"/>
+  <circle cx="140" cy="140" r="80" fill="none" stroke="#F8FAFC" stroke-opacity="0.18" stroke-width="0.75"/>
+  <circle cx="140" cy="140" r="53" fill="none" stroke="#F8FAFC" stroke-opacity="0.45" stroke-width="1"/>
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700" letter-spacing="2.4" fill="#A5B4CB" fill-opacity="0.9">
+    <text><textPath href="#arcTop" startOffset="50%" text-anchor="middle">THINK GLOBAL</textPath></text>
+    <text><textPath href="#arcBottom" startOffset="50%" text-anchor="middle">ACT LOCAL</textPath></text>
+  </g>
+  <g fill="#2DD4BF">
+    <circle cx="75" cy="140" r="2"/><circle cx="205" cy="140" r="2"/>
+  </g>
+  <text x="140" y="150" text-anchor="middle" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="38" font-weight="700" letter-spacing="1" fill="url(#mono)">GV</text>
+  <path d="M118 159 H162" stroke="#F8FAFC" stroke-opacity="0.35" stroke-width="0.75"/>
+  <text x="140" y="172" text-anchor="middle" font-family="ui-monospace,'SF Mono',Menlo,Consolas,monospace" font-size="8.5" letter-spacing="0.9" fill="#94A3B8">39.36° N · 21.92° E</text>
+</svg>
