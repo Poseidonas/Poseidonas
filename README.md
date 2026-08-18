@@ -70,6 +70,7 @@
 | Project | What it does | Stack |
 |---|---|---|
 | [**hardening-essentials**](https://github.com/Poseidonas/hardening-essentials) | Ten independent WordPress hardening switches on one native settings page. No scanner, no firewall, no bundled extras. Updates delivered from GitHub Releases. | PHP · WordPress |
+| [**debloat-essentials**](https://github.com/Poseidonas/debloat-essentials) | Fifteen switches that turn off what WordPress loads by default and most sites never use: emojis, embeds, head links, jQuery Migrate, heartbeat, revisions and more. No caching, no minification. | PHP · WordPress |
 
 ## Certifications &amp; continuous learning
 
