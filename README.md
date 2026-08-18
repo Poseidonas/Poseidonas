@@ -71,6 +71,7 @@
 |---|---|---|
 | [**hardening-essentials**](https://github.com/Poseidonas/hardening-essentials) | Ten independent WordPress hardening switches on one native settings page. No scanner, no firewall, no bundled extras. Updates delivered from GitHub Releases. | PHP · WordPress |
 | [**debloat-essentials**](https://github.com/Poseidonas/debloat-essentials) | Fifteen switches that turn off what WordPress loads by default and most sites never use: emojis, embeds, head links, jQuery Migrate, heartbeat, revisions and more. No caching, no minification. | PHP · WordPress |
+| [**staging-safeguards**](https://github.com/Poseidonas/staging-safeguards) | Keeps staging, development and local copies from acting like the live site: intercepts outgoing email, blocks indexing, stops WooCommerce webhooks and marks the environment in the admin. Does nothing on production. | PHP · WordPress · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
