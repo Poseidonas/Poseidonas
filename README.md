@@ -69,9 +69,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **noc-dashboard** | Real-time Network Operations Center dashboard for monitoring infrastructure health and incidents | TypeScript |
-| **raw-mrp** | Raw-materials requirements planning (MRP) tool tailored to food-manufacturing production flows | JavaScript |
-| [**Lightweight-Popup**](https://github.com/Poseidonas/Lightweight-Popup) | Tiny, dependency-free popup for promoting offers &amp; deals on any store or website | JavaScript |
+| [**hardening-essentials**](https://github.com/Poseidonas/hardening-essentials) | Ten independent WordPress hardening switches on one native settings page. No scanner, no firewall, no bundled extras. Updates delivered from GitHub Releases. | PHP · WordPress |
 
 ## Certifications &amp; continuous learning
 
