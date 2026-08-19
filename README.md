@@ -81,6 +81,7 @@
 | [**woo-quantity-control-rules**](https://github.com/Poseidonas/woo-quantity-control-rules) | Minimum, maximum and step quantities for WooCommerce by product, variation, category, tag and user role, with order limits by item count and by value, enforced in the classic cart and in the block checkout alike. | PHP · WooCommerce |
 | [**checkout-guard-rules**](https://github.com/Poseidonas/checkout-guard-rules) | Refuses WooCommerce orders that match rules you set on email, phone, address, country or network, with automatic rules built from order history, an allow list that always wins, and a log of every decision. | PHP · WooCommerce |
 | [**customer-purchase-limits**](https://github.com/Poseidonas/customer-purchase-limits) | Limits how much of a product, a variation or a category one customer may buy over a period of time, counted from real order history with refunds subtracted, shown on the product page before the cart fills up. | PHP · WooCommerce |
+| [**free-shipping-meter**](https://github.com/Poseidonas/free-shipping-meter) | Tells the customer how much more is needed for free shipping, read from the shipping zone that actually applies and counted the way WooCommerce counts it, on the classic pages and on the blocks alike. | PHP · JS · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
