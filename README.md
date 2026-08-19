@@ -84,6 +84,7 @@
 | [**free-shipping-meter**](https://github.com/Poseidonas/free-shipping-meter) | Tells the customer how much more is needed for free shipping, read from the shipping zone that actually applies and counted the way WooCommerce counts it, on the classic pages and on the blocks alike. | PHP · JS · WooCommerce |
 | [**product-retirement**](https://github.com/Poseidonas/product-retirement) | Retires a product without deleting it: the page stays live and indexed, the buy button goes, the structured data says discontinued rather than out of stock, and a replacement can be offered in its place. | PHP · WooCommerce |
 | [**custom-order-statuses**](https://github.com/Poseidonas/custom-order-statuses) | Order statuses of your own, each one saying plainly whether it counts as paid, whether it reduces stock, and what email it sends, with a bulk action in the orders list. | PHP · WooCommerce |
+| [**shareable-coupons**](https://github.com/Poseidonas/shareable-coupons) | Links that apply a WooCommerce coupon and land the customer where you choose, each with its own expiry, its own usage limit and a record of the orders it brought in. | PHP · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
