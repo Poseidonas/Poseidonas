@@ -77,6 +77,7 @@
 | [**search-essentials**](https://github.com/Poseidonas/search-essentials) | Makes site search find what is already there: taxonomy terms, custom fields such as the WooCommerce SKU, and variation codes. Adds relevance ordering and a live report on what the database itself already handles. | PHP · WordPress · WooCommerce |
 | [**image-metadata**](https://github.com/Poseidonas/image-metadata) | Writes the alt text, caption and title of images in the media library using the AI provider already configured in WordPress. Existing values are never overwritten. | PHP · WordPress · AI client |
 | [**login-alerts**](https://github.com/Poseidonas/login-alerts) | Emails a user when their account is signed in to from a device WordPress has not seen before, and shows the sessions WordPress already records so a single one can be ended. | PHP · WordPress |
+| [**upload-control-rules**](https://github.com/Poseidonas/upload-control-rules) | Rules applied to every media upload: transliterated lowercase file names, camera metadata removed from the original file, and control over the sizes, quality and duplicates WordPress produces. | PHP · WordPress |
 
 ## Certifications &amp; continuous learning
 
