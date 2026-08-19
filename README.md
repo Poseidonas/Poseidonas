@@ -76,6 +76,7 @@
 | [**notices-drawer**](https://github.com/Poseidonas/notices-drawer) | Collects admin notices into one collapsible drawer and names the plugin each notice came from. Error notices and WordPress notices stay in place. No JavaScript. | PHP · WordPress |
 | [**search-essentials**](https://github.com/Poseidonas/search-essentials) | Makes site search find what is already there: taxonomy terms, custom fields such as the WooCommerce SKU, and variation codes. Adds relevance ordering and a live report on what the database itself already handles. | PHP · WordPress · WooCommerce |
 | [**image-metadata**](https://github.com/Poseidonas/image-metadata) | Writes the alt text, caption and title of images in the media library using the AI provider already configured in WordPress. Existing values are never overwritten. | PHP · WordPress · AI client |
+| [**login-alerts**](https://github.com/Poseidonas/login-alerts) | Emails a user when their account is signed in to from a device WordPress has not seen before, and shows the sessions WordPress already records so a single one can be ended. | PHP · WordPress |
 
 ## Certifications &amp; continuous learning
 
