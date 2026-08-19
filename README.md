@@ -87,6 +87,13 @@
 | [**custom-order-statuses**](https://github.com/Poseidonas/custom-order-statuses) | Order statuses of your own, each one saying plainly whether it counts as paid, whether it reduces stock, and what email it sends, with a bulk action in the orders list. | PHP · WooCommerce |
 | [**shareable-coupons**](https://github.com/Poseidonas/shareable-coupons) | Links that apply a WooCommerce coupon and land the customer where you choose, each with its own expiry, its own usage limit and a record of the orders it brought in. | PHP · WooCommerce |
 
+### Payload CMS packages
+
+| Package | What it does | Stack |
+|---|---|---|
+| [**payload-commerce-kit**](https://github.com/Poseidonas/payload-commerce-kit) | The index of a family of small, single-purpose npm packages for Payload ecommerce: the measured gaps, the design rules and the state of each package. | Payload CMS |
+| [**payload-order-numbers**](https://github.com/Poseidonas/payload-order-numbers) | Human readable sequential order numbers for Payload ecommerce, unique under concurrency. On npm as `payload-order-numbers`. | TypeScript · Payload CMS |
+
 ## Certifications &amp; continuous learning
 
 A selection — the full list (120+) is on [LinkedIn](https://www.linkedin.com/in/g-vasileiadis/details/certifications/).
