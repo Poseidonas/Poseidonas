@@ -82,6 +82,7 @@
 | [**checkout-guard-rules**](https://github.com/Poseidonas/checkout-guard-rules) | Refuses WooCommerce orders that match rules you set on email, phone, address, country or network, with automatic rules built from order history, an allow list that always wins, and a log of every decision. | PHP · WooCommerce |
 | [**customer-purchase-limits**](https://github.com/Poseidonas/customer-purchase-limits) | Limits how much of a product, a variation or a category one customer may buy over a period of time, counted from real order history with refunds subtracted, shown on the product page before the cart fills up. | PHP · WooCommerce |
 | [**free-shipping-meter**](https://github.com/Poseidonas/free-shipping-meter) | Tells the customer how much more is needed for free shipping, read from the shipping zone that actually applies and counted the way WooCommerce counts it, on the classic pages and on the blocks alike. | PHP · JS · WooCommerce |
+| [**product-retirement**](https://github.com/Poseidonas/product-retirement) | Retires a product without deleting it: the page stays live and indexed, the buy button goes, the structured data says discontinued rather than out of stock, and a replacement can be offered in its place. | PHP · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
