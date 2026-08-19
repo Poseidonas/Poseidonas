@@ -78,6 +78,7 @@
 | [**image-metadata**](https://github.com/Poseidonas/image-metadata) | Writes the alt text, caption and title of images in the media library using the AI provider already configured in WordPress. Existing values are never overwritten. | PHP · WordPress · AI client |
 | [**login-alerts**](https://github.com/Poseidonas/login-alerts) | Emails a user when their account is signed in to from a device WordPress has not seen before, and shows the sessions WordPress already records so a single one can be ended. | PHP · WordPress |
 | [**upload-control-rules**](https://github.com/Poseidonas/upload-control-rules) | Rules applied to every media upload: transliterated lowercase file names, camera metadata removed from the original file, and control over the sizes, quality and duplicates WordPress produces. | PHP · WordPress |
+| [**woo-quantity-control-rules**](https://github.com/Poseidonas/woo-quantity-control-rules) | Minimum, maximum and step quantities for WooCommerce by product, variation, category, tag and user role, with order limits by item count and by value, enforced in the classic cart and in the block checkout alike. | PHP · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
