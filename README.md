@@ -83,6 +83,7 @@
 | [**customer-purchase-limits**](https://github.com/Poseidonas/customer-purchase-limits) | Limits how much of a product, a variation or a category one customer may buy over a period of time, counted from real order history with refunds subtracted, shown on the product page before the cart fills up. | PHP · WooCommerce |
 | [**free-shipping-meter**](https://github.com/Poseidonas/free-shipping-meter) | Tells the customer how much more is needed for free shipping, read from the shipping zone that actually applies and counted the way WooCommerce counts it, on the classic pages and on the blocks alike. | PHP · JS · WooCommerce |
 | [**product-retirement**](https://github.com/Poseidonas/product-retirement) | Retires a product without deleting it: the page stays live and indexed, the buy button goes, the structured data says discontinued rather than out of stock, and a replacement can be offered in its place. | PHP · WooCommerce |
+| [**custom-order-statuses**](https://github.com/Poseidonas/custom-order-statuses) | Order statuses of your own, each one saying plainly whether it counts as paid, whether it reduces stock, and what email it sends, with a bulk action in the orders list. | PHP · WooCommerce |
 
 ## Certifications &amp; continuous learning
 
