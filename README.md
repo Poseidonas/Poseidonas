@@ -69,10 +69,27 @@
 
 ### Payload CMS packages
 
-| Package | What it does | Stack |
+A family of small, single-purpose packages for Payload ecommerce. Each one closes a gap the official plugin leaves open, does one thing only, and ships with its own tests, CI and release pipeline. All are TypeScript, MIT licensed, and published to npm with build provenance.
+
+[**payload-commerce-kit**](https://github.com/Poseidonas/payload-commerce-kit) is the index of the family: the measured gaps, the design rules and the state of each package.
+
+| Package | What it does | |
 |---|---|---|
-| [**payload-commerce-kit**](https://github.com/Poseidonas/payload-commerce-kit) | The index of a family of small, single-purpose npm packages for Payload ecommerce: the measured gaps, the design rules and the state of each package. | Payload CMS |
-| [**payload-order-numbers**](https://github.com/Poseidonas/payload-order-numbers) | Human readable sequential order numbers for Payload ecommerce, unique under concurrency. On npm as `payload-order-numbers`. | TypeScript · Payload CMS |
+| [**payload-order-numbers**](https://github.com/Poseidonas/payload-order-numbers) | Human readable sequential order numbers for Payload ecommerce, unique under concurrency. | [`npm`](https://www.npmjs.com/package/payload-order-numbers) |
+| [**payload-order-emails**](https://github.com/Poseidonas/payload-order-emails) | Transactional email on Payload order creation and status changes, with overridable templates and customer or admin recipients. | [`npm`](https://www.npmjs.com/package/payload-order-emails) |
+| [**payload-fulfillment**](https://github.com/Poseidonas/payload-fulfillment) | Extra order states, transition history, internal notes and tracking for Payload ecommerce orders. | [`npm`](https://www.npmjs.com/package/payload-fulfillment) |
+| [**payload-invoices**](https://github.com/Poseidonas/payload-invoices) | Gapless sequential invoices and credit notes for Payload ecommerce, with a frozen snapshot and PDF output, no runtime dependencies. | [`npm`](https://www.npmjs.com/package/payload-invoices) |
+| [**payload-refunds**](https://github.com/Poseidonas/payload-refunds) | Full and partial refunds for Payload ecommerce, per line item, with optional restock and an append only audit trail. | [`npm`](https://www.npmjs.com/package/payload-refunds) |
+| [**payload-stock-reservation**](https://github.com/Poseidonas/payload-stock-reservation) | Validates variant stock and price for Payload ecommerce, which the official plugin never does, and holds stock from checkout until payment settles. | [`npm`](https://www.npmjs.com/package/payload-stock-reservation) |
+| [**payload-stock-alerts**](https://github.com/Poseidonas/payload-stock-alerts) | Low stock thresholds, admin notification on the downward crossing and backorder handling for Payload ecommerce. | [`npm`](https://www.npmjs.com/package/payload-stock-alerts) |
+| [**payload-shipping-classes**](https://github.com/Poseidonas/payload-shipping-classes) | Weight, dimensions and a shipping class on Payload products and variants, stored in one canonical unit. | [`npm`](https://www.npmjs.com/package/payload-shipping-classes) |
+| [**payload-shipping-rates**](https://github.com/Poseidonas/payload-shipping-rates) | Shipping zones, methods and rate calculation for Payload ecommerce, in integer minor units. | [`npm`](https://www.npmjs.com/package/payload-shipping-rates) |
+| [**payload-tax-eu**](https://github.com/Poseidonas/payload-tax-eu) | EU VAT for Payload ecommerce: rates by country, B2B reverse charge, VAT number validation and OSS totals. | [`npm`](https://www.npmjs.com/package/payload-tax-eu) |
+| [**payload-coupons**](https://github.com/Poseidonas/payload-coupons) | Coupon codes and discounts for Payload ecommerce, in integer minor units with exact rounding. | [`npm`](https://www.npmjs.com/package/payload-coupons) |
+| [**payload-reviews**](https://github.com/Poseidonas/payload-reviews) | Product reviews for Payload ecommerce, with a verified purchase flag computed from real orders, moderation, and an aggregate rating that never drifts. | [`npm`](https://www.npmjs.com/package/payload-reviews) |
+| [**payload-abandoned-cart**](https://github.com/Poseidonas/payload-abandoned-cart) | Marks idle Payload carts abandoned, sends a recovery sequence through payload.sendEmail, and attributes the orders it recovers. | [`npm`](https://www.npmjs.com/package/payload-abandoned-cart) |
+| [**payload-downloads**](https://github.com/Poseidonas/payload-downloads) | Digital products for Payload ecommerce: signed expiring download links, per order access and download limits. | [`npm`](https://www.npmjs.com/package/payload-downloads) |
+| [**payload-sales-reports**](https://github.com/Poseidonas/payload-sales-reports) | Sales totals by period, product and customer for Payload ecommerce, as data and endpoints with no admin component required. | [`npm`](https://www.npmjs.com/package/payload-sales-reports) |
 
 ### WordPress and WooCommerce plugins
 
