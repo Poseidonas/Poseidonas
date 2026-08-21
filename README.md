@@ -91,6 +91,8 @@ A family of small, single-purpose packages for Payload ecommerce. Each one close
 | [**payload-downloads**](https://github.com/Poseidonas/payload-downloads) | Digital products for Payload ecommerce: signed expiring download links, per order access and download limits. | [`npm`](https://www.npmjs.com/package/payload-downloads) |
 | [**payload-sales-reports**](https://github.com/Poseidonas/payload-sales-reports) | Sales totals by period, product and customer for Payload ecommerce, as data and endpoints with no admin component required. | [`npm`](https://www.npmjs.com/package/payload-sales-reports) |
 
+Alongside the kit, [**payload-ai-manager**](https://github.com/Poseidonas/payload-ai-manager) writes the content itself: product titles, descriptions, attribute lists and translations through Claude, ChatGPT, Gemini or Kimi, into named fields only, with every field switchable from the admin panel. On npm as [`payload-ai-manager`](https://www.npmjs.com/package/payload-ai-manager).
+
 ### WordPress and WooCommerce plugins
 
 | Project | What it does | Stack |
