@@ -67,6 +67,33 @@
 
 ## Featured projects
 
+### Industrial automation
+
+Tools for talking to Siemens S7 controllers from anything that is not TIA Portal, and for
+developing against one when there is no hardware in the room. Both are Python, MIT licensed,
+and tested against the real S7 protocol rather than a mock.
+
+| Project | What it does | |
+|---|---|---|
+| [**s7-gateway**](https://github.com/Poseidonas/s7-gateway) | Reads and writes Siemens S7 tags over HTTP, from addresses declared in a YAML file, and exposes them for Prometheus. Write access is opt-in per tag, and two values snap7 would silently convert are refused instead. | [`PyPI`](https://pypi.org/project/s7-gateway/) |
+| [**s7-sim**](https://github.com/Poseidonas/s7-sim) | A simulated S7 line in a container. Counters advance while it runs and freeze when it stops, a temperature climbs and falls back, and the same seed produces the same stops on every machine. `docker compose up` brings up the line, a gateway, Prometheus and a provisioned Grafana dashboard. | [`ghcr.io`](https://ghcr.io/poseidonas/s7-sim) |
+
+### Open source contributions
+
+Fixes sent upstream to industrial and automotive projects, each one reproduced before it was
+written and measured rather than argued.
+
+| Project | Contribution | Status |
+|---|---|---|
+| [mercedes-benz/odxtools](https://github.com/mercedes-benz/odxtools) | Name the offending element when a reference points to the wrong kind of object, instead of failing with the type alone. | [#499](https://github.com/mercedes-benz/odxtools/pull/499) merged |
+| [mercedes-benz/odxtools](https://github.com/mercedes-benz/odxtools) | Three more: naming in the remaining load-time diagnostics, a consistency checker, and a `weakref` fix carried across to table rows. | [#501](https://github.com/mercedes-benz/odxtools/pull/501) · [#502](https://github.com/mercedes-benz/odxtools/pull/502) · [#503](https://github.com/mercedes-benz/odxtools/pull/503) open |
+| [siemens/mtda](https://github.com/siemens/mtda) | A successful storage rollback reported as a failure, and a power driver returning nothing where its own contract says unsure. | [#608](https://github.com/siemens/mtda/pull/608) · [#609](https://github.com/siemens/mtda/pull/609) open |
+| [PHOENIXCONTACT/MORYX-Framework](https://github.com/PHOENIXCONTACT/MORYX-Framework) | Forward the validation message a developer wrote, rather than dropping it before it reaches the client. | [#1454](https://github.com/PHOENIXCONTACT/MORYX-Framework/pull/1454) open |
+| [simatic-ax/learning-path](https://github.com/simatic-ax/learning-path) | A Structured Text method returning 0 because the exercise never assigned to the method name. | [#40](https://github.com/simatic-ax/learning-path/pull/40) open |
+| [yaacov/node-modbus-serial](https://github.com/yaacov/node-modbus-serial) | One corrupted frame killing the client permanently, and a length error reported where the function code was the real mismatch. | [#624](https://github.com/yaacov/node-modbus-serial/pull/624) · [#625](https://github.com/yaacov/node-modbus-serial/pull/625) open |
+| [cantools/cantools](https://github.com/cantools/cantools) | Narrow the exceptions swallowed while probing a database string, so a real fault is not read as an unsupported format. | [#827](https://github.com/cantools/cantools/pull/827) open |
+| [gijzelaerr/python-snap7](https://github.com/gijzelaerr/python-snap7) | A read from a data block that does not exist answered with fabricated bytes rather than an error, found while testing `s7-gateway` against it. | [#578](https://github.com/gijzelaerr/python-snap7/discussions/578) reported |
+
 ### Payload CMS packages
 
 A family of small, single-purpose packages for Payload ecommerce. Each one closes a gap the official plugin leaves open, does one thing only, and ships with its own tests, CI and release pipeline. All are TypeScript, MIT licensed, and published to npm with build provenance.
