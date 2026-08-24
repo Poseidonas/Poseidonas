@@ -85,8 +85,6 @@ written and measured rather than argued.
 
 | Project | Contribution | Status |
 |---|---|---|
-| [mercedes-benz/odxtools](https://github.com/mercedes-benz/odxtools) | Name the offending element when a reference points to the wrong kind of object, instead of failing with the type alone. | [#499](https://github.com/mercedes-benz/odxtools/pull/499) merged |
-| [mercedes-benz/odxtools](https://github.com/mercedes-benz/odxtools) | Three more: naming in the remaining load-time diagnostics, a consistency checker, and a `weakref` fix carried across to table rows. | [#501](https://github.com/mercedes-benz/odxtools/pull/501) · [#502](https://github.com/mercedes-benz/odxtools/pull/502) · [#503](https://github.com/mercedes-benz/odxtools/pull/503) open |
 | [siemens/mtda](https://github.com/siemens/mtda) | A successful storage rollback reported as a failure, and a power driver returning nothing where its own contract says unsure. | [#608](https://github.com/siemens/mtda/pull/608) · [#609](https://github.com/siemens/mtda/pull/609) open |
 | [PHOENIXCONTACT/MORYX-Framework](https://github.com/PHOENIXCONTACT/MORYX-Framework) | Forward the validation message a developer wrote, rather than dropping it before it reaches the client. | [#1454](https://github.com/PHOENIXCONTACT/MORYX-Framework/pull/1454) open |
 | [simatic-ax/learning-path](https://github.com/simatic-ax/learning-path) | A Structured Text method returning 0 because the exercise never assigned to the method name. | [#40](https://github.com/simatic-ax/learning-path/pull/40) open |
