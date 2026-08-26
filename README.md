@@ -78,6 +78,12 @@ and tested against the real S7 protocol rather than a mock.
 | [**s7-gateway**](https://github.com/Poseidonas/s7-gateway) | Reads and writes Siemens S7 tags over HTTP, from addresses declared in a YAML file, and exposes them for Prometheus. Write access is opt-in per tag, and two values snap7 would silently convert are refused instead. | [`PyPI`](https://pypi.org/project/s7-gateway/) |
 | [**s7-sim**](https://github.com/Poseidonas/s7-sim) | A simulated S7 line in a container. Counters advance while it runs and freeze when it stops, a temperature climbs and falls back, and the same seed produces the same stops on every machine. `docker compose up` brings up the line, a gateway, Prometheus and a provisioned Grafana dashboard. | [`ghcr.io`](https://ghcr.io/poseidonas/s7-sim) |
 
+### Desktop
+
+| Project | What it does | |
+|---|---|---|
+| [**Moodly**](https://github.com/Poseidonas/moodly) | A desktop widget that watches the rhythm you work at and wears the result. It counts how many keys and clicks happen, never which ones: the operating system hands out per-event-type counters that carry no content, so no accessibility permission is asked for and nothing leaves the machine. Rust and Tauri, about 22 MB resident. | [`download`](https://github.com/Poseidonas/moodly/releases/latest) |
+
 ### Open source contributions
 
 Fixes sent upstream to industrial and automotive projects, each one reproduced before it was
@@ -91,8 +97,10 @@ written and measured rather than argued.
 | [PHOENIXCONTACT/MORYX-Framework](https://github.com/PHOENIXCONTACT/MORYX-Framework) | Forward the validation message a developer wrote, rather than dropping it before it reaches the client. | [#1454](https://github.com/PHOENIXCONTACT/MORYX-Framework/pull/1454) open |
 | [simatic-ax/learning-path](https://github.com/simatic-ax/learning-path) | A Structured Text method returning 0 because the exercise never assigned to the method name. | [#40](https://github.com/simatic-ax/learning-path/pull/40) open |
 | [yaacov/node-modbus-serial](https://github.com/yaacov/node-modbus-serial) | One corrupted frame killing the client permanently, and a length error reported where the function code was the real mismatch. | [#624](https://github.com/yaacov/node-modbus-serial/pull/624) · [#625](https://github.com/yaacov/node-modbus-serial/pull/625) open |
+| [WordPress/gutenberg](https://github.com/WordPress/gutenberg) | Indexed PNGs re-encoded as truecolour when resized, so thumbnails came out larger than the originals. Withdrawn in favour of a maintainer's fix that covered more; the measurements went to that one. | [#81920](https://github.com/WordPress/gutenberg/pull/81920) closed |
 | [cantools/cantools](https://github.com/cantools/cantools) | Narrow the exceptions swallowed while probing a database string, so a real fault is not read as an unsupported format. | [#827](https://github.com/cantools/cantools/pull/827) open |
-| [gijzelaerr/python-snap7](https://github.com/gijzelaerr/python-snap7) | A read from a data block that does not exist answered with fabricated bytes rather than an error, found while testing `s7-gateway` against it. | [#578](https://github.com/gijzelaerr/python-snap7/discussions/578) reported |
+| [FreeOpcUa/opcua-asyncio](https://github.com/FreeOpcUa/opcua-asyncio) | Three in the OPC UA client: a reconnect race where a subscription reported failure while quietly delivering data, an unauthenticated peer able to hold 100 MB on a server by never finishing a message, and observation points so tracing can live outside the library. | [#2026](https://github.com/FreeOpcUa/opcua-asyncio/pull/2026) · [#2027](https://github.com/FreeOpcUa/opcua-asyncio/pull/2027) · [#2028](https://github.com/FreeOpcUa/opcua-asyncio/pull/2028) open |
+| [gijzelaerr/python-snap7](https://github.com/gijzelaerr/python-snap7) | A read from a data block that does not exist answered with fabricated bytes rather than an error, found while testing `s7-gateway` against it. | [#578](https://github.com/gijzelaerr/python-snap7/discussions/578) reported · [#847](https://github.com/gijzelaerr/python-snap7/pull/847) open |
 
 ### Payload CMS packages
 
